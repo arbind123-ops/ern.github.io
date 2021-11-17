@@ -1,0 +1,621 @@
+$font-a: "Poppins";
+$font-b: "Lato";
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #707070 !important;
+    font-family: $font-b;
+    font-size: 16px;
+    font-weight:600;
+}
+.navbar-brand img {
+    width: 145px;
+}
+.navbar-nav li
+{
+	padding-right: 10px;
+}
+.navbar
+{
+	z-index: 5;
+	position: relative;
+}
+.form-control:focus
+{
+    box-shadow: none !important;
+}
+.bg-light
+{
+	background-color:transparent !important;
+}
+.banner {
+    background: url("../img/banner-bg.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    margin-top: -150px;
+}
+.text-section
+{
+    padding-top: 280px;
+}
+
+.text-section h1
+{
+	font-family: $font-a;
+	color: #62605D;
+	font-size: 42px;
+	font-weight: bold;
+}
+.text-section p
+{
+	font-family: $font-b;
+	color: #62605D;
+	font-size: 16px;
+	padding-top: 20px; 
+}
+.upperx
+{
+    margin-top: -56px;
+    padding-bottom: 20px;
+}
+#target {
+ background-color: rgba(254,138,76,0.8);
+    padding-top:15px;
+    padding-bottom: 15px;
+  display:none;
+}
+.top-form {
+    margin-top: -109px;
+}
+
+.vanish
+{
+  display:none;
+}
+.form
+{
+    background-color: rgba(254,138,76,0.8);
+    padding-top:15px;
+    padding-bottom: 15px;
+    margin-top: -74px;
+
+}
+.input-group-text 
+{
+    border-radius: 10px !important;
+    background-color: white;
+    border-color: white !important;
+}
+
+.input-group-prepend {
+    margin-right: -10px !important;
+}
+.form-control
+{       border-radius: 10px;
+        border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+    border-color: white !important;
+}
+.form-btn
+{
+    background-color: #484F8C;
+    border-radius: 10px;
+    border-color: #484F8C;
+}
+.d-part
+{
+    background-color: #FAF9F7;
+    padding-bottom: 80px;
+}
+.offer-part, .blog-part, .why-us-part
+{
+    background-color: #FFF8EE;
+    padding-bottom:80px;
+}
+.destination, .offer, .blog, .about-part, .testimonial-part
+{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.insta
+{
+     background-color: #FAF9F7;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.owl-theme .owl-nav {
+   display: none;
+}
+
+.flex-container {
+  display: flex;
+}
+.slider-control-1
+{
+    float: right;
+    font-size: 27px;
+    color: #FE8A4C;
+    font-weight: 200;
+    margin-top: -792px;
+    padding-right: 17px;
+}
+.slider-control-2
+{
+    float: right;
+    font-size: 27px;
+    color: #FE8A4C;
+    font-weight: 200;
+    margin-top: -865px;
+    padding-right: 17px;
+}
+.slider-control-3
+{
+        float: right;
+    font-size: 27px;
+    color: #FE8A4C;
+    font-weight: 200;
+    padding-right: 17px;
+    margin-top: -522px;
+}
+.slider-control-4
+{
+   
+  font-size: 26px;
+    color: #FE8A4C;
+    font-weight: 200;
+    padding-right: 17px;
+    margin-top: -53px;
+    z-index: 11;
+    position: absolute;
+    margin-left: 440px;
+    background-color: white;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-top: 6px
+
+}
+.slider-control-5
+{
+   
+  font-size: 26px;
+    color: #FE8A4C;
+    font-weight: 200;
+    padding-right: 17px;
+    margin-top: -52px;
+    z-index: 11;
+    padding: absolute;
+    position: absolute;
+    margin-left: 315px;
+    background-color: white;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-top: 8px;
+}
+.prebtn-a, .prebtn-b, .prebtn-c, .prebtn-d, .prebtn-e
+{
+   padding-right: 10px;
+}
+
+.inner-item
+{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.inner-item h3
+{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: $font-a;
+}
+.inner-item h6
+{
+    font-family:$font-b;
+    font-size:16px; 
+    color: #62605D;
+}
+.checked {
+  color: orange;
+}
+.tour-time h5:before
+{
+    font-family: "Font Awesome 5 Free";
+     content: "\f073";
+     padding-right: 2px;
+}
+.tour-time h5
+{
+    font-size: 16px;
+    font-family: $font-b;
+}
+.bottom
+{
+    background-color: #FAECD7;
+    border-color: #FAECD7;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.card
+{
+    border: none;
+}
+.card-img-top
+{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 250px;
+}
+.insta
+{
+    text-align: center;
+}
+.post img
+{
+   height: 360px;
+}
+.insta h3
+{
+    padding-bottom: 40px;
+    font-family: $font-a;
+    font-size: 32px;
+
+}
+ .why-us-part h3
+{
+    padding-bottom: 60px;
+    font-family: $font-a;
+    font-size: 32px;
+
+}
+.destination h3, .offer h3, .blog h3, .about-part h3, .testimonial h3
+{
+    font-family: $font-a;
+    font-size: 32px;
+}
+.insta h5, .why-us-part h5, .destination h5, .offer h5, .blog h5, .about-part h5, .testimonial h5
+{
+    font-family: $font-a;
+    font-size: 18px;
+    color: #D1D1CE;
+}
+.blog-part img
+{
+    height: 250px;
+    border-radius: 10px !important;
+}
+.blog-item h6
+{
+    padding-top: 10px;
+}
+
+.blog-item h3{
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.blog-item p
+{
+    font-size:15px;
+    font-family: $font-b;
+    
+}
+.owl-four img
+{
+    border-radius: none;
+    padding-left: 115px;
+}
+.owl-five img
+{
+    border-radius: 0px !important;
+    padding-right: 115px;
+
+}
+.about-btn, .subscribe-btn
+{
+    background-color: #484F8C;
+    border-radius: 10px;
+    border-color: #484F8C;
+    font-size: 16px;
+    font-family: $font-a;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.nextbtn-a i, .prebtn-a i, .nextbtn-b i, .prebtn-b i, .nextbtn-c i, .prebtn-c i, .nextbtn-d i, .prebtn-d i, .nextbtn-e i, .prebtn-e i
+{
+    border: 2px solid;
+border-radius: 134px;
+padding-right: 11px;
+padding-left:11px;
+padding-top: 6px;
+padding-bottom: 6px;
+}
+.nextbtn-a i:hover, .prebtn-a i:hover, .nextbtn-b i:hover, .prebtn-b i:hover, .nextbtn-c i:hover, .prebtn-c i:hover, .nextbtn-d i:hover, .prebtn-d i:hover, .nextbtn-e i:hover, .prebtn-e i:hover
+{
+    background-color: #FE8A4C;
+    color: white;
+    border-color: #FE8A4C;
+}
+.why-us-part 
+{
+    text-align: center;
+    padding-top: 80px;
+}
+.whyus-bottom
+{
+    padding-top: 60px;
+}
+
+.whyus-top h5, .whyus-top p, .whyus-bottom h5, .whyus-bottom p
+{
+    text-align: left;
+}
+
+.whyus-card
+{
+    border-radius: 10px;
+    box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.43);
+}
+.card-body img {
+    float: right;
+    margin-top: -38px;
+    margin-right: 10px
+}
+.card-title
+{
+    padding-top: 40px;
+    font-family: $font-a;
+    font-size: 16px;
+    font-weight: 600;
+     color: black !important;
+}
+.card-text
+{
+    padding-bottom: 40px;
+    font-family: $font-b;
+    font-size: 16px;
+}
+.testimonial p, .about-part p
+{
+    padding-bottom: 20px;
+    font-family: $font-b;
+    color: #62605D;
+    font-size: 16px;
+}
+.test-title
+{
+    margin-left: -180px;
+}
+.test-title h4
+{
+    font-family: $font-a;
+    font-size: 24px;
+    font-weight: 600;
+}
+.test-title h6
+{
+    font-family: $font-b;
+    font-size: 16px;
+    color: #62605D;
+}
+.subscribe
+{
+    background-color: #FE8A4C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.button-part, .subscribe-form
+{
+    background-color: white;
+}
+.subscribe-text h2
+{
+    font-family: $font-a;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+.subscribe-form
+{
+    margin-bottom: 27px;
+   border-radius: 10px;
+   margin-top: 10px;
+   font-family: $font-a;
+}
+.subscribe-btn
+{
+       margin-left: 9px;
+    padding-left: 46px;
+    padding-right: 46px;
+}
+.footer{
+    padding-top: 60px;
+}
+.logo-part img
+{
+    width: 100px;
+}
+.logo-part p
+{
+    font-family: $font-b;
+    font-size: 14px;
+    color: #62605D;
+}
+.footer-social-media ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+.footer-social-media ul li{
+    display: inline-block;
+    padding: 0px 5px;
+    color: #62605D;
+}
+.footer-social-media ul li a{
+    font-size: 14px;
+    color: #62605D;
+}
+.links ul li
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+     padding-bottom: 15px;
+}
+.links ul li a
+{
+    text-decoration: none;
+     font-family: $font-b;
+    color: #62605D;
+    padding-bottom: 15px;
+}
+.links li, .contact-footer li
+{
+    list-style: none;
+    margin: 0px;
+    font-size: 14px;
+    padding-bottom:8px;
+
+
+}
+.links h5, .contact-footer h5, .payment h5
+{
+    padding-left: 35px;
+    font-family: $font-a;
+    font-size: 22px;
+    color: #312F2E;
+    font-weight: 600;
+    padding-bottom:20px;
+}
+.payment img
+{
+    float: right;
+    width: 217px;
+
+}
+.ct-part p
+{
+    float: right;
+}
+.footer-text
+{
+    padding-top: 40px;
+}
+.footer-text p
+{
+    font-family: $font-b;
+    font-size: 14px;
+    color: #62605D;
+}
+
+@media (max-width: 767px) {
+
+.text-section h1 {
+    font-size: 32px;
+}
+.text-section p {
+    color: #62605D;
+    font-size: 15px;
+}
+
+.input-group
+{
+    padding-bottom: 10px;
+}
+.slider-control-1 {
+    float: left;
+    margin-top: -880px;
+     padding-right: 0px; 
+}
+.owl-one, .owl-two, .owl-three
+{
+    padding-top: 20px;
+}
+.slider-control-2 {
+    float: left;
+    margin-top: -875px;
+      padding-right: 0px;  
+}
+.post img {
+    height: 344px;
+    padding-bottom: 20px;
+}
+.slider-control-3 {
+    float: left;
+    padding-right: 0px;
+    margin-top: -537px;
+}
+.owl-four img
+{
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.slider-control-4
+{
+    margin-left: 0px;
+}
+.whyus-card
+{
+    margin-bottom: 35px;
+}
+.whyus-bottom {
+     padding-top: 0px; 
+}
+.owl-five img
+{
+    padding-right: 0px;
+}
+.slider-control-5
+{
+    margin-left: -1px;
+}
+.offer
+{
+    padding-top: 60px;
+}
+.d-part
+{
+    padding-bottom: 40px;
+}
+.testimonial h5
+{
+    padding-top: 10px;
+}
+.test-title {
+    
+    margin-left: 90px;
+    margin-top: -68px;
+}
+.button-part
+{
+    margin-left: 55px;
+}
+.links h5, .contact-footer h5, .payment h5
+{
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.links ul li {
+     padding-bottom: 0px; 
+}
+.links ul, .contact-footer ul
+{
+    padding-left: 0px;
+}
+.payment img, .ct-part p
+{
+    float: left;
+}
+.logo-part img {
+    width: 161px;
+}
+.subscribe-form {
+    margin: 10px;
+}
+
+
+}
